@@ -7,7 +7,7 @@ var chalk = require('chalk');
 var sys = require('sys')
 var fs = require('fs')
 
-var SoaRubyGenerator = yeoman.generators.Base.extend({
+var HttpRubyGenerator = yeoman.generators.Base.extend({
   init: function () {
     this.pkg = require('../../package.json');
   },
@@ -61,4 +61,4 @@ var SoaRubyGenerator = yeoman.generators.Base.extend({
 
 });
 
-module.exports = SoaRubyGenerator;
+module.exports = HttpRubyGenerator;

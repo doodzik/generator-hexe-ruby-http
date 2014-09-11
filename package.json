@@ -1,10 +1,10 @@
 {
-  "name": "generator_hexe_ruby_http",
+  "name": "generator-hexe-ruby-http",
   "version": "0.0.0",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "generators/app/index.js",
-  "repository": "doodzik/generator_hexe_ruby_http",
+  "repository": "doodzik/generator-hexe-ruby-http",
   "author": {
     "name": "Frederik Dudzik",
     "email": "",

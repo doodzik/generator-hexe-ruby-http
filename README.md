@@ -1,4 +1,4 @@
-# generator_hexe_ruby_http [![Build Status](https://secure.travis-ci.org/doodzik/generator_hexe_ruby_http.png?branch=master)](https://travis-ci.org/doodzik/generator_hexe_ruby_http)
+# generator-hexe-ruby-http [![Build Status](https://secure.travis-ci.org/doodzik/generator-hexe-ruby-http.png?branch=master)](https://travis-ci.org/doodzik/generator-hexe-ruby-http)
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -23,10 +23,10 @@ $ npm install -g yo
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
-To install generator_hexe_ruby_http from npm, run:
+To install generator-hexe-ruby-http from npm, run:
 
 ```bash
-$ npm install -g generator_hexe_ruby_http
+$ npm install -g generator-hexe-ruby-http
 ```
 
 Finally, initiate the generator:

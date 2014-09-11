@@ -10,7 +10,7 @@ describe('generator hexe ruby http', function () {
         return done(err);
       }
 
-      this.app = helpers.createGenerator('hexe_ruby_http:app', [
+      this.app = helpers.createGenerator('hexe-ruby-http:app', [
         '../../adapter'
       ]);
       done();

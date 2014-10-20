@@ -4,7 +4,7 @@ namespace :http do
     Rake::Task['before:http'].invoke if Rake::Task.task_defined?('before:http')
         
     require './contracts/http.rb'
-    Dir["#{ENV['BASEDIR']}/adapters/http/*.rb"].map &method(:require)
+    Dir["#{ENV['BASEDIR']}/http*.rb"].map &method(:require)
 
     Rack::Handler::WEBrick.run(
       Http::Server.instance,

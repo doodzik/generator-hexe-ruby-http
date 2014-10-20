@@ -23,13 +23,13 @@ var HttpRubyGenerator = yeoman.generators.Base.extend({
     //adapter
     this.template(
       '_service.rb',
-      'adapters/http/'+context.service+'.rb',
+      'adapters/http_'+context.service+'.rb',
       context
     );
     //spec
     this.template(
       '_service_spec.rb',
-      'spec/adapters/http/'+context.service+'.rb',
+      'spec/adapters/http_'+context.service+'.rb',
       context
     );
   }

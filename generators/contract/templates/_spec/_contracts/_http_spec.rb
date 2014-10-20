@@ -21,7 +21,7 @@ describe Http do
     end
 
     it 'has a public assets dir' do
-      path_to_file = "#{ENV['BASEDIR']}/adapters/http/public/out.txt"
+      path_to_file = "#{ENV['BASEDIR']}/adapters/http_public/out.txt"
       File.open(path_to_file, 'w') { |f| f.write('tester in sachsen') }
       get '/out.txt'
       expect(last_response).to be_ok

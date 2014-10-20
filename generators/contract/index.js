@@ -28,9 +28,8 @@ var HttpRubyHexeGenerator = yeoman.generators.Base.extend({
   },
 
   structure: function () {
-    this.mkdir('adapters/http');
-    this.mkdir('adapters/http/public');
-    this.mkdir('spec/adapters/http');
+    this.mkdir('adapters');
+    this.mkdir('adapters/http_public');
   },
 
   createFiles: function () {

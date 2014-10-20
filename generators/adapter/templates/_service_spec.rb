@@ -5,7 +5,7 @@ require 'rack/test'
 
 
 require './contracts/http.rb'
-require './adapters/http/<%= service %>.rb'
+require './adapters/http_<%= service %>.rb'
 
 describe Http::<%= Service %> do
   include Rack::Test::Methods

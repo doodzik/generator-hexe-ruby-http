@@ -6,7 +6,7 @@ module Http
   class Server
     def initialize
       @filenames = ['', '.html', 'index.html', '/index.html']
-      root = File.expand_path("#{ENV['BASEDIR']}/adapters/http/public", __FILE__)
+      root = File.expand_path("#{ENV['BASEDIR']}/adapters/http_public", __FILE__)
       @rack_static = ::Rack::Static.new(
         -> { [404, {}, []] },
         urls: Dir.glob("#{root}/*").map { |fn| fn.gsub(/#{root}/, '') },

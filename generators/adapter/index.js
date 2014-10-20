@@ -29,7 +29,7 @@ var HttpRubyGenerator = yeoman.generators.Base.extend({
     //spec
     this.template(
       '_service_spec.rb',
-      'spec/adapters/http_'+context.service+'.rb',
+      'spec/adapters/http_'+context.service+'_spec.rb',
       context
     );
   }

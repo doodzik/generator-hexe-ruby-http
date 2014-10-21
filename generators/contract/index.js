@@ -50,6 +50,9 @@ var HttpRubyHexeGenerator = yeoman.generators.Base.extend({
       '_spec/_tasks/_http_spec.rb',
       'spec/tasks/http_spec.rb', context);
 
+    this.template(
+      '_spec/_support_http.rb',
+      'spec/support_http.rb', context);
     //tasks
     this.template('_tasks/_http.rb', 'tasks/http.rb', context);
 
